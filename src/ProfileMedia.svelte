@@ -1,16 +1,32 @@
+<script>
+    import { onMount } from 'svelte';
+    let video;
+
+    onMount(() => {
+        // Removes video controls on iOS
+        video.controls = false;
+    });
+</script>
+
 <style>
     video {
         width: 100%;
+        margin-top: 72px;
     }
     video::-webkit-media-controls {
         display: none;
     }
+    @media (max-width: 520px) {
+        video {
+            margin-top:24px;
+        }
+    }
 </style>
 
 <!-- svelte-ignore a11y-media-has-caption -->
-<video  autoplay="autoplay" controls="false" muted loop>
+<video bind:this={video} poster="assets/JonLehman_Profile_Poster.png" autoplay="true" controls="false" preload='auto' muted loop playsinline>
     <source src="assets/JonLehman_Profile_SMALL.webm" type="video/webm" />
     <source src="assets/JonLehman_Profile_SMALL.mp4" type="video/mp4" />
     <!-- svelte-ignore a11y-missing-attribute -->
-    <img src="assets/JoneLehman_Profile_Poster.png" />
+    <img src="assets/JonLehman_Profile_Poster.png" />
 </video>

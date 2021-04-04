@@ -35,6 +35,7 @@
 		font-size: 18px;
 		line-height: 160%;
 		-webkit-font-smoothing: antialiased;
+		padding: 16px;
 	}
 	:global(.reduced) {
 		color: var(--text-secondary-color);
@@ -66,9 +67,8 @@
 </svelte:head>
 
 <div class="container">
-	<Section>
-		<ProfileMedia />
-	</Section>
+	
+	<ProfileMedia />
 
 	<div class="sticky">
 		<Title />
@@ -96,7 +96,7 @@
 
 	<Section label={"Socials"}>
 		{#each data.socials as social}
-			<Link label={social.text} url={social.link} lineBreak={false}/>
+			<Link label={social.text} url={social.link} lineBreak={true}/>
 		{/each}
 	</Section>
 
