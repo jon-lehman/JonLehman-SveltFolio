@@ -24,7 +24,7 @@
 </style>
 
 <!-- svelte-ignore a11y-media-has-caption -->
-<video bind:this={video} poster="assets/JonLehman_Profile_Poster.png" autoplay="true" controls="false" preload='auto' muted loop playsinline>
+<video bind:this={video} poster="assets/JonLehman_Profile_Poster.png" autoplay="true" controls="false" preload='metadata' muted loop playsinline>
     <source src="assets/JonLehman_Profile_SMALL.webm" type="video/webm" />
     <source src="assets/JonLehman_Profile_SMALL.mp4" type="video/mp4" />
     <!-- svelte-ignore a11y-missing-attribute -->
