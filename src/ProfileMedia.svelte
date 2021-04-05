@@ -25,8 +25,8 @@
 
 <!-- svelte-ignore a11y-media-has-caption -->
 <video bind:this={video} poster="assets/JonLehman_Profile_Poster.jpg" autoplay="true" controls="false" preload='metadata' muted loop playsinline>
-    <source src="assets/JonLehman_Profile_SMALL.webm" type="video/webm" />
-    <source src="assets/JonLehman_Profile_SMALL.mp4" type="video/mp4" />
+    <source src="assets/JonLehman_Profile_SHORT.webm" type="video/webm"/>
+    <source src="assets/JonLehman_Profile_SHORT.mp4" type="video/mp4"/>
     <!-- svelte-ignore a11y-missing-attribute -->
-    <img src="assets/JonLehman_Profile_Poster.png" />
+    <img src="assets/JonLehman_Profile_Fallback.jpg"/>
 </video>
