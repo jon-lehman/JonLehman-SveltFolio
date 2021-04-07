@@ -4,11 +4,13 @@
 	import Link from './Link.svelte';
 	import ProfileMedia from './ProfileMedia.svelte';
 	import Title from './Title.svelte';
+	import { init, track, parameters } from "insights-js"
 	
 	if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
   		document.body.classList.add('dark-mode');
 	}
-	
+	//Get Insights Analtyics
+	init("aBcSgrqnvPnJ1Nuy");
 </script>
 
 <style>
@@ -64,13 +66,6 @@
 	<html lang="en" />
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
-
-	<!-- Analytics -->
-	<script src="https://getinsights.io/js/insights.js"></script>
-	<script>
-		insights.init('aBcSgrqnvPnJ1Nuy');
-		insights.trackPages();
-	</script>
 </svelte:head>
 
 <div class="container">
