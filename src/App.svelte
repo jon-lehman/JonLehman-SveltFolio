@@ -64,6 +64,13 @@
 	<html lang="en" />
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+	<!-- Analytics -->
+	<script src="https://getinsights.io/js/insights.js"></script>
+	<script>
+		insights.init('aBcSgrqnvPnJ1Nuy');
+		insights.trackPages();
+	</script>
 </svelte:head>
 
 <div class="container">
