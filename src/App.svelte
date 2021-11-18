@@ -84,6 +84,10 @@
 		<p>{data.currentJob.text}</p>
 	</Section>
 
+	<Section label={"Previously"}>
+		<p>{data.previousJob.text}</p>
+	</Section>
+
 	<Section label={"Personal Projects"}>
 		{#each data.projects as project}
 			<Link label={project.text} url={project.link}/>

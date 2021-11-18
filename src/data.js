@@ -1,14 +1,18 @@
 export const data = {
 	"title": {
 		"name": "Jon Lehman",
-		"subtitle": "Principal Product Designer, Front-End Cowboy"
+		"subtitle": "Product Designer, Front-End Cowboy"
 	},
 	
 	"about": {
-		"text": "I'm a remote (Dallas-Fort Worth) based product designer. Over the last 8 years I have lead product design for small startups, fortune 500's, and everything in between."
+		"text": "I'm a remote (Dallas-Fort Worth) based product designer. Over the last 9 years I have lead product design for small startups, fortune 500's, and everything in between."
 	},
 	
 	"currentJob": {
+		"text": "Product Designer at Teladoc"
+	},
+
+	"previousJob": {
 		"text": "Principal Designer at Theorem, designing for Apple."
 	},
 	
@@ -19,7 +23,7 @@ export const data = {
 		},
 		{
 			"text":"Scan 2 Slides",
-			"link": "http://scan2slides.jonlehman.me/"
+			"link": "https://jonlehman.medium.com/what-is-scan-2-slides-2850d41d6b17"
 		},
 		{
 			"text":"Model Share",
