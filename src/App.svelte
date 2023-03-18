@@ -85,7 +85,9 @@
 	</Section>
 
 	<Section label={"Previously"}>
-		<p>{data.previousJob.text}</p>
+		{#each data.previousJobs as job}
+			<p>{job.text}</p>
+		{/each}
 	</Section>
 
 	<Section label={"Personal Projects"}>

@@ -12,9 +12,10 @@ export const data = {
 		"text": "Senior Product Designer at Teladoc"
 	},
 
-	"previousJob": {
-		"text": "Principal Designer at Theorem, designing for Apple."
-	},
+	"previousJobs": [
+		{"text": "Principal Designer at Theorem, designing for Apple."},
+		{"text": "UI/UX Designer at Idea42"}
+	],
 	
 	"projects": [
 		{
