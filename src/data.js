@@ -9,7 +9,7 @@ export const data = {
 	},
 	
 	"currentJob": {
-		"text": "Product Designer at Teladoc"
+		"text": "Senior Product Designer at Teladoc"
 	},
 
 	"previousJob": {
@@ -32,6 +32,26 @@ export const data = {
 	],
 	
 	"notes": [
+		{
+			"text":"Code the iPhone 14 Landing Page, Gallery Grid",
+			"link": "https://medium.com/@jonlehman/code-the-iphone-14-landing-page-gallery-grid-f2a20e6140b7"
+		},
+		{
+			"text":"How to Underline Text with CSS & Customize the Style",
+			"link": "https://medium.com/@jonlehman/how-to-underline-text-with-css-customize-the-style-dce7f8541bbd"
+		},
+		{
+			"text":"VR Prototyping #3 | Illustration Interaction Experiment",
+			"link": "https://medium.com/@jonlehman/vr-prototyping-3-illustration-interaction-experiment-cff68bcc1363"
+		},
+		{
+			"text":"VR Prototyping #2 | Number Input",
+			"link": "https://medium.com/design-bootcamp/vr-prototyping-number-input-7e38c9d0e095"
+		},
+		{
+			"text":"VR Prototyping #1 | Meta Horizon World Selection",
+			"link": "https://medium.com/@jonlehman/vr-prototyping-meta-horizon-world-selection-ae18bba55fdb"
+		},
 		{
 			"text":"Button Ambiguity: Alignment & Order",
 			"link": "https://medium.com/theorem/button-ambiguity-alignment-order-a42736e25334"
